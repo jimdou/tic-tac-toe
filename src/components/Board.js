@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Square from './Square';
 
 function calculateWinner(squares) {
   const lines = [
@@ -19,15 +20,6 @@ function calculateWinner(squares) {
     }
   }
   return null;
-}
-
-
-function Square(props) {
-  return (
-    <button className="square" onClick={props.onClick}>
-      {props.value}
-    </button>
-  );
 }
 
 
