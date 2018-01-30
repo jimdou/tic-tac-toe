@@ -2,7 +2,7 @@
 
 Installation:
 
-### `npm start`
+### `npm install`
 
 Usage:
 
